@@ -106,7 +106,7 @@
 									<c:set var="field" value="name"/>
 									<spring:bind path="${field}">
 										<div class="form-group no-vmargin <c:if test='${status.errors.hasFieldErrors(field)}'>has-error</c:if>">
-											<form:input path="${field}" id="${field}" cssClass="form-control red-tooltip" minlength="2" maxlength="50" onkeydown="return isNumberKey(event)"
+											<form:input path="${field}" id="${field}" cssClass="form-control red-tooltip" minlength="2" maxlength="50"
 														data-toggle="tooltip" title='${status.errorMessage}' data-placement="top"/>
 										</div>
 									</spring:bind>
@@ -116,7 +116,7 @@
 									<c:set var="field" value="phone"/>
 									<spring:bind path="${field}">
 										<div class="form-group no-vmargin <c:if test='${status.errors.hasFieldErrors(field)}'>has-error</c:if>">
-											<form:input path="${field}" id="${field}" cssClass="form-control red-tooltip" minlength="1" maxlength="11"
+											<form:input path="${field}" id="${field}" cssClass="form-control red-tooltip" minlength="1" maxlength="11" onkeydown="return isNumberKey(event)"
 														data-toggle="tooltip" title='${status.errorMessage}' data-placement="top"/>
 										</div>
 									</spring:bind>
