@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+    <dataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/dataset.xsd">
+    <contacts id="1" name="Иван Петров" phone="79781234567"/>
+    <contacts id="2" name="Updated name" phone="79780000000"/>
+    <contacts id="3" name="Пётр Сидоров" phone="79785554422"/>
+    </dataset>
