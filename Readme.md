@@ -1,4 +1,4 @@
-﻿# Phonebook
+﻿# PhonebookJava
 
 Простейшая телефонная книга на Java + Spring MVC + Hibernate.
 Работает на embedded сервере Tomcat 7.
